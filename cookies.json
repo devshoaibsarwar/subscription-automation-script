@@ -1,0 +1,12 @@
+[
+  {
+    "name": "settings",
+    "value": "%7B%22mode%22%3A%22dark%22%2C%22template%22%3A%221%22%2C%22lang%22%3A%22eng%22%7D",
+    "domain": "localhost",
+    "path": "/",
+    "expires": 1748610182,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]

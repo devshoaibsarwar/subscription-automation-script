@@ -1,0 +1,13 @@
+--- Intercepted network calls AFTER button press ---
+URL: http://localhost:4000/api/submit-form
+Method: POST
+Payload: {"name":"Test User","email":"testuser@example.com","phone":"1234567890","paymentType":"Credit Card","cardNumber":"4111111111111111","cvv":"123","expiry":"12/30","planName":"Single"}
+Status: 200
+Response: {"success":true,"message":"Subscribed successfully."}
+---------------------------------
+URL: http://localhost:4000/api/unSubscribe
+Method: POST
+Payload: {"email":"testuser@example.com","planName":"Single","userId":null}
+Status: 200
+Response: {"success":true,"message":"Unsubscribed successfully."}
+---------------------------------
